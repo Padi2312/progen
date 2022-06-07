@@ -2,8 +2,28 @@
 
 A small CLI tool for generating projects.
 
+## Installation
+Do a global npm install:
+```
+npm install -g @patrand/progen
+```
+
+
 ## Usage
-Documentation of usage is comming soon 😊
+Just use it like this:
+```shell
+generate <type>
+```
+*Possible types can be found at the **Feature** section* 
+
+To list all types just type
+```
+generate help
+```
 
 ## Features
-An overview of features is comming soon 😊
+- React 
+- Node Module
+- NestJS
+---
+- Help 

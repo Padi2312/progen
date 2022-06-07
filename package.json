@@ -1,6 +1,6 @@
 {
   "name": "@patrand/progen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small CLI tool for PROject GENeration",
   "main": "index.js",
   "bin": {
@@ -41,5 +41,13 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "readline-sync": "^1.4.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Padi2312/progen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Padi2312/progen/issues"
+  },
+  "homepage": "https://github.com/Padi2312/progen#readme"
 }

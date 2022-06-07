@@ -6,12 +6,12 @@ import { generateReact } from './scripts/generateReact';
 import { listHelp } from './scripts/listHelp';
 
 const proncli = async () => {
-
     //Remove first two args (the running process and directory)
     const args: string[] = process.argv.slice(2)
     let type = args[0]
     if (type === undefined) {
         console.error(chalk.red("Please provide a type"))
+        listHelp()
         exit(1)
     }
 
