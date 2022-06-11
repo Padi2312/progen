@@ -3,6 +3,7 @@ import { exit } from 'process';
 import { generateModule } from './scripts/generateModule';
 import { generateNestJS } from './scripts/generateNestJs';
 import { generateReact } from './scripts/generateReact';
+import { generateSolidJS } from './scripts/generateSolidJs';
 import { listHelp } from './scripts/listHelp';
 
 const proncli = async () => {
@@ -29,8 +30,12 @@ const proncli = async () => {
             generateReact(args)
             break;
 
-        case "nest":
+        case "nestjs":
             generateNestJS(args)
+            break;
+
+        case "solidjs":
+            generateSolidJS(args)
             break;
 
         default:
